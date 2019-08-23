@@ -1,0 +1,41 @@
+{
+    "ERRORS": {
+        "v1": "Sorry, I can't understand the command. Please say again.",
+        "v2": "Sorry, I didn't get that. Could you say it again?."
+    },
+    "HELP": {
+        "MESSAGE": "This is the Alexa Skill for rocket chat. If you do not have the code, please go to Rocket Chat web client , and click on your avatar at the top left and select My Account. Then register with Alexa to get the six digits code.",
+        "CARD_TITLE": "Rocket.Chat Help"
+    },
+    "GOODBYE": {
+        "MESSAGE": "Thanks for using Rocket Chat.",
+        "CARD_TITLE": "Goodbye!"
+    },
+    "WELCOME": {
+        "SUCCESS": "Welcome To Rocket Chat Alexa Skill. What Would you like to do today?",
+        "NO_SERVER_FOUND": "Welcome To Rocket Chat Alexa Skill. Currently, You don't have any registered server on this skill. Please say , Add Server , if you have a pincode , or , Help If you want to know how to generate one. ",
+        "SUCCESS_RETURN_USER": "Welcome back! What Would you like to do today?",
+        "CARD_TITLE": "Welcome To Rocket.Chat",
+        "ERROR": "To start using this skill, please use the companion app to authenticate."
+    },
+    "POST_MESSAGE": {
+        "SUCCESS": "I've sent your message.",
+        "AUTH_ERROR": "Sorry Incorrect User Credentials. Please Check your provided UserID and AuthToken ",
+        "CARD_TITLE": "Post A Message",
+        "ERROR": "Sorry, I couldn't send your message right now.",
+        "DENIED": "Okay, let's try again."
+    },
+    "SERVER": {
+        "SUCCESS": "Server Added Successfully",
+        "ERROR": "Sorry I cannot find any server related to this pincode",
+        "SWAP_SUCCESS": "Server Switched Successfully",
+        "SWAP_ERROR": "Sorry I cannot find server {servername}. Please Try again with different servername."
+    },
+    "GET_LAST_MESSAGE_FROM_CHANNEL": {
+        "SUCCESS": "{name} says, {message}.",
+        "CARD_TITLE": "Channel Last Message",
+        "AUTH_ERROR": "Sorry you are currently signed out , please use the companion app to authenticate ",
+        "ERROR": "Sorry, I couldn't find the channel {channelName} right now.",
+        "ERROR_NOT_FOUND": "Sorry, the channel {channelName} does not exist. Please try again with different channel name."
+    }
+}
